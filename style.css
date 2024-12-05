@@ -1,0 +1,87 @@
+/*
+body {
+
+}
+*/
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    text-indent: 15px;
+    position: relative;
+    line-height: 2;
+    text-align: justify; 
+}
+
+.row {
+    width: 100%;
+    margin-left: 0;
+}
+
+.col {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.marginAdd {
+        display: none;          
+}
+
+   /* 
+.marginAdd {
+    position: relative;
+    color: blue;
+  
+}
+*/
+
+
+.mirador-canvas-nav {
+    display: none !important;
+}
+
+.supraAdd {
+    position: relative;
+    top: -15px;
+    font-size: smaller; 
+    font-style: italic;
+    white-space: nowrap; 
+    color: brown;
+}
+
+
+.infraAdd {
+    position: relative;
+    bottom: -10px;
+    font-size: smaller; 
+    font-style: italic;
+    white-space: nowrap; 
+    color: brown;
+}
+  
+
+.defaultAdd {
+    font-style: italic;
+    color: brown;
+}
+
+del {
+    color: brown; /* Makes all <del> text brown */
+    text-decoration: line-through; /* Ensures the default strikethrough behavior stays intact */
+    text-decoration-color: gray; /* Optionally changes the strikethrough line color */
+    text-decoration-thickness: 1.5px;
+    font-style: italic; /* Makes the text italic, if desired */
+}
+
+.underline {
+    position: relative;
+    text-decoration-line: underline overline; 
+    }
