@@ -42,11 +42,9 @@
         it became a thing <del type="crossedOut" hand="#MWS" rend="blackink">to</del> such as even Dante <lb/>
         could never have conceived.<lb/>
         </p>
-
-        <!-- I REACH UNTIL HERE THIS FILE IS A MESS -->
         
         <p>
-        I passed the night wretchedly–<lb/>
+        I passed the night wretchedly —<lb/>
         sometimes my pulses beat so quickly 
         <del type="crossedOut" hand="#MWS" rend="blackink">t</del>
         <add place='inline' hand="#MWS" rend="blackink"> a</add>
@@ -55,12 +53,16 @@
         every artery: at others I nearly sunk<lb/>
         to the ground <del type="crossedOut" hand="#MWS" rend="blackink">with</del>
         <add place="supralinear" hand="#PBS" rend="blackink">thro</add> languor and ex-<lb/>
-        treme weakness. <del type="crossedOut" hand="#PBS" rend="blackink">Surely so wretched a creature as I never before existed.</del><lb/>
+        treme weakness. 
+        <del type="crossedOut" hand="#PBS" rend="blackink">Surely so wretched a <lb/>
+        creature as I never before existed.</del><add place="supralinear" hand="#PBS" rend="blackink">X</add><lb/>
+        
         <add place="marginleft" hand="#PBS" rend="blackink">X and mingled with this horror I felt the bitterness of
-        <del type="crossedOut" hand="#PBS" rend="blackink">disapp</del>disappointment:</add><lb/>
+        <del type="crossedOut" hand="#PBS" rend="blackink">disapp</del>disappointment:</add>
+
         Dreams that had been my food and<lb/>
         rest for so long a space were now<lb/>
-        become a hell to me – <del type="crossedOut" hand="#MWS" rend="blackink">I</del> and the<lb/>
+        become a hell to me — <del type="crossedOut" hand="#MWS" rend="blackink">I</del> and the<lb/>
         change was so rapid, the overthrow<lb/>
         so complete.
         </p>

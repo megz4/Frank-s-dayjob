@@ -96,10 +96,17 @@
         <br/>
     </xsl:template>
     
-</xsl:stylesheet>
+
+    
 
 
-<!-- &#8212; - unicode for wide hyphen i.e. strikethrough -->
+<!-- &#8212; - unicode for wide hyphen i.e. crossing through -->
+<!-- &#160;&#160;&#160;&#160; unicode for tab cuz nothing else works
+        consider replacing it with <hi rend="indented"> for cleaner look  -->
+
+<!-- dentistry symbol light vertical and bottom right (U+23BF) // left square bracket lower corner (U+23A3) -->
+
+
 
 
  <!-- 
@@ -111,3 +118,6 @@
 consider making thr ^ from underneath
  -->
  
+
+
+ </xsl:stylesheet>

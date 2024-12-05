@@ -53,20 +53,20 @@
                palpitated <del type="crossedOut" hand="#PBS" rend="blackink">with</del><add place="supralinear" hand="#PBS" rend="blackink">in the sickness of</add> fear and I hurried<lb/>
                on with irregular steps not daring<lb/>
                to look about me,<lb/>
-            </p>
 
-
-            <!-- something strange here   -->
-            <list><item>"Like one who on a lon<del type="crossedOut" hand="#MWS" rend="blackink">s</del>esome road</item>
-            <item>"and having once turned round</item>
-               <item rend="right"><add place="supralinear" hand="#MWS" rend="blackink">walks on</add></item>
-               <item><del type="crossedOut" hand="#MWS" rend="blackink">wal</del>And turns no more his head</item>
-            <item>Because he knows a frightful</item>
-            <item rend="right">fiend</item>
-               <item>"doth close behind hum tread."*<add place="marginleft" hand="#MS" rend="blackink">*Coleridge's<lb/>"Ancient Mariner.'</add></item></list>
+         
+            "Like one who on a lon<del type="crossedOut" hand="#MWS" rend="blackink">s</del>esome road<lb/>
+            <!-- its not elegant but it works -->
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"doth walk in fear and dread<lb/>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"and having once turned round
+            <add place="infralinear" hand="#MWS" rend="blackink">&#9151;walks on</add><lb/>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<del type="crossedOut" hand="#MWS" rend="blackink">wal</del> And turns no more his head<lb/>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"Because he knows a frightful
+            <add place="infralinear" hand="#MWS" rend="blackink">&#9151;fiend</add><lb/>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"doth close behind hum tread." * <lb/>
+            <add place="marginleft" hand="#MS" rend="blackink">*Coleridge's<lb/>"Ancient Mariner.'</add>
            
-            <!-- something strange here   -->
-            <p>
+      
                Continueing thus, I came at lenght<lb/>
                <del type="crossedOut" hand="#MWS" rend="blackink">opposite</del><add place="supralinear" hand="#PBS" rend="blackink">opposite to</add> the Inn at which the dili-<lb/>
                gences and carriages usually stopped. Here<lb/>

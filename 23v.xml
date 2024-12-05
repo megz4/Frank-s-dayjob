@@ -38,16 +38,14 @@
         the doors being opened I perceived Henry<lb/> 
         Clerval, who on <del type="crossedOut" hand="MWS" rend="blackink">seee</del> seeing me<lb/>
         instantly sprung out.<lb/>
-      </p>
- <!-- something strange here   -->
-      <p>
-        "My dear Frankenstein," exclaimed he.<lb/>
+        
+        &#160;&#160;&#160;&#160;"My dear Frankenstein," exclaimed he.<lb/>
         "How glad I am to see you; how<lb/>
-        "fortunate <add place="supralinear">that</add> you should be here at<lb/>
-        "the <add place="sublinear"><metamark function="insert">^</metamark></add>
-          <add place="supralinear">very</add> moment of my alighting"<lb/>
-      </p> <!-- something strange here   -->
-      
+        "fortunate <add place="supralinear" hand="PBS" rend="blackink">that</add> you should be here at<lb/>
+        "the<add place="infralinear" hand="#PBS" rend="blackink">^</add>
+          <add place="supralinear" hand="#PBS" rend="blackink">very</add> moment of my alighting."<lb/>
+      </p>
+
       <p>
         Nothing could equal my delight<lb/>
         on <del type="crossedOut" hand="MWS" rend="blackink">see</del> seing Clerval: his presence<lb/>
@@ -66,15 +64,15 @@
         talking for some time about <del type="crossedOut" hand="PBS" rend="blackink">my</del><add place="supralinear" hand="PBS" rend="blackink">our mutual</add><lb/>
         friends and his <add place="supralinear" hand="PBS" rend="blackink">own</add> good fortune in<lb/>
         being allowed to come Ingolstadt.<lb/>
-      </p>
-      <p> <!-- need to deal with talking   -->
-        "You may believe", said he, "<del type="crossedOut"hand="MWS" rend="blackink">that</del><lb/>
-        "it was not with<del rend="crossedOut">out</del> considerable<lb/>
+      
+        &#160;&#160;&#160;&#160;"You may believe", said he, <del type="crossedOut" hand="MWS" rend="blackink">"that</del><lb/>
+        "it was not with<del type="crossedOut" hand="MWS" rend="blackink">out</del> considerable<lb/>
         "trouble that I persuaded my<lb/>
         "father that it is not absolutely<lb/>
         "necessary for a merchant to<lb/>
         "know nothing except bookeeping<lb/>
       </p>
+
       </div>                    
     </body>
   </text>

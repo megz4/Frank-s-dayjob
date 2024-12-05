@@ -17,7 +17,7 @@ p {
     text-indent: 15px;
     position: relative;
     line-height: 2;
-    text-align: justify; 
+    text-align: start; 
 }
 
 .row {
@@ -50,7 +50,7 @@ p {
 
 .supraAdd {
     position: relative;
-    top: -15px;
+    top: -12px;
     font-size: smaller; 
     font-style: italic;
     white-space: nowrap; 
@@ -60,7 +60,7 @@ p {
 
 .infraAdd {
     position: relative;
-    bottom: -10px;
+    bottom: -8px;
     font-size: smaller; 
     font-style: italic;
     white-space: nowrap; 
@@ -74,11 +74,11 @@ p {
 }
 
 del {
-    color: brown; /* Makes all <del> text brown */
-    text-decoration: line-through; /* Ensures the default strikethrough behavior stays intact */
-    text-decoration-color: gray; /* Optionally changes the strikethrough line color */
+    color: brown;
+    text-decoration: line-through; 
+    text-decoration-color: gray; 
     text-decoration-thickness: 1.5px;
-    font-style: italic; /* Makes the text italic, if desired */
+    font-style: italic; 
 }
 
 .underline {
