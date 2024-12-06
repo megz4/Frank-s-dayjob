@@ -91,12 +91,12 @@
     </xsl:template>
     
      <xsl:template match="tei:hi">
-        <del>
+        <hi>
             <xsl:attribute name="class">
                 <xsl:value-of select="@rend"/>
             </xsl:attribute>
             <xsl:apply-templates/>
-        </del>
+        </hi>
     </xsl:template>
     
     <xsl:template match="hi[@rend='underline']">
