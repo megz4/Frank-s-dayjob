@@ -76,12 +76,28 @@ p {
 del {
     color: brown;
     text-decoration: line-through; 
-    text-decoration-color: gray; 
-    text-decoration-thickness: 1.5px;
+    text-decoration-color: black; 
+    text-decoration-thickness: 1.2px;
     font-style: italic; 
 }
 
 .underline {
     position: relative;
-    text-decoration-line: underline overline; 
+    text-decoration-line: underline; 
+    box-shadow: 0px 1px 0px black, 0px 1px 0px black;
     }
+
+.indented {
+    display: inline-block;
+    width: 1em;
+    }
+
+.circled {
+        display: inline-block; /* Ensures the element wraps neatly around the content */
+        border: 2px solid black; /* Adjust the thickness and color of the circle */
+        border-radius: 50%; /* Makes the border circular */
+        padding: 10px; /* Adds space between the number and the circle */
+        text-align: center; /* Centers the number inside the circle */
+        line-height: 1; /* Ensures proper vertical alignment */
+    }
+    

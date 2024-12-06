@@ -83,12 +83,6 @@
         </span>
     </xsl:template>
 
-<!-- doesnt work, check on line 37 in 22v-->
-    <xsl:template match="hi[@rend='underline']">
-        <span class="underline">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
 
     <!-- add additional templates below, for example to transform the tei:lb in <br/> empty elements, tei:hi[@rend = 'sup'] in <sup> elements, the underlined text, additions with the attribute "overwritten" etc. -->
 
@@ -96,14 +90,35 @@
         <br/>
     </xsl:template>
     
-
+     <xsl:template match="tei:hi">
+        <del>
+            <xsl:attribute name="class">
+                <xsl:value-of select="@rend"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </del>
+    </xsl:template>
     
+    <xsl:template match="hi[@rend='underline']">
+        <span class="underline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="hi[@rend='indented']">
+        <span class="indented">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+ <xsl:template match="hi[@rend='circled']">
+        <span class="circled">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 
 
 <!-- &#8212; - unicode for wide hyphen i.e. crossing through -->
-<!-- &#160;&#160;&#160;&#160; unicode for tab cuz nothing else works
-        consider replacing it with <hi rend="indented"> for cleaner look  -->
-
 <!-- dentistry symbol light vertical and bottom right (U+23BF) // left square bracket lower corner (U+23A3) -->
 
 
@@ -112,10 +127,9 @@
  <!-- 
  questions 
  i wanna make the additions above the line withoug breaking it (avoid white spaces)
- should i adhere to the 'hand' specidied in the document, or continue with the one in the provided files
- make <lb> to actually line break
- deal with the text in margins situation + how to add modification to it, e,g, 21r line 60: handsomw is crossed out and beautiful is added in supra
-consider making thr ^ from underneath
+ should i adhere to the 'hand' specified in the document, or continue with the one in the provided files
+
+ deal with the text in margins situation + how to add modification to it, e,g, 21r line 60: handsome is crossed out and beautiful is added in supra
  -->
  
 

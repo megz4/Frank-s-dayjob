@@ -56,14 +56,13 @@
 
          
             "Like one who on a lon<del type="crossedOut" hand="#MWS" rend="blackink">s</del>esome road<lb/>
-            <!-- its not elegant but it works -->
-            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"doth walk in fear and dread<lb/>
-            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"and having once turned round
+            <hi rend='indented'></hi><hi rend='indented'></hi>"doth walk in fear and dread<lb/>     <!-- two widths indents -->
+            <hi rend='indented'></hi><hi rend='indented'></hi>"and having once turned round
             <add place="infralinear" hand="#MWS" rend="blackink">&#9151;walks on</add><lb/>
-            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<del type="crossedOut" hand="#MWS" rend="blackink">wal</del> And turns no more his head<lb/>
-            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"Because he knows a frightful
+            <hi rend='indented'></hi><hi rend='indented'></hi>"<del type="crossedOut" hand="#MWS" rend="blackink">wal</del> And turns no more his head<lb/>
+            <hi rend='indented'></hi><hi rend='indented'></hi>"Because he knows a frightful
             <add place="infralinear" hand="#MWS" rend="blackink">&#9151;fiend</add><lb/>
-            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"doth close behind hum tread." * <lb/>
+            <hi rend='indented'></hi><hi rend='indented'></hi>"doth close behind hum tread." * <lb/>
             <add place="marginleft" hand="#MS" rend="blackink">*Coleridge's<lb/>"Ancient Mariner.'</add>
            
       
