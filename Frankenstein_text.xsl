@@ -98,9 +98,17 @@
             <xsl:apply-templates/>
         </hi>
     </xsl:template>
+
     
+<!--     
     <xsl:template match="hi[@rend='underline']">
         <span class="underline">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+
+      <xsl:template match="hi[@rend='double']">
+        <span class="doubleLine">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
@@ -115,7 +123,8 @@
         <span class="circled">
             <xsl:apply-templates/>
         </span>
-    </xsl:template>
+    </xsl:template> 
+    -->
 
 
 <!-- &#8212; - unicode for wide hyphen i.e. crossing through -->
@@ -128,7 +137,7 @@
  questions 
  i wanna make the additions above the line withoug breaking it (avoid white spaces)
  should i adhere to the 'hand' specified in the document, or continue with the one in the provided files
-
+should i keep all the <hi> variation in the xml when it works just by adding it in css?
  deal with the text in margins situation + how to add modification to it, e,g, 21r line 60: handsome is crossed out and beautiful is added in supra
  -->
  

@@ -84,6 +84,11 @@ del {
 .underline {
     position: relative;
     text-decoration-line: underline; 
+    }
+
+.double {
+    position: relative;
+    text-decoration-line: underline; 
     box-shadow: 0px 1px 0px black, 0px 1px 0px black;
     }
 
@@ -91,6 +96,7 @@ del {
     display: inline-block;
     width: 1em;
     }
+
 
 .circled {
         display: inline-block; /* Ensures the element wraps neatly around the content */
@@ -100,4 +106,3 @@ del {
         text-align: center; /* Centers the number inside the circle */
         line-height: 1; /* Ensures proper vertical alignment */
     }
-    
