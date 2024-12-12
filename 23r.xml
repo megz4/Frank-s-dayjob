@@ -33,8 +33,8 @@
       <body>
          <div type="page" n="23r" rend="recto">
             <pb facs="#p23r"/>
-                   
-            <metamark function="pagenumber"><num><hi rend="circled">79</hi></num></metamark>
+           <pageNumber place="right"><hi rend="circled">79</hi></pageNumber>
+
             <p>
                my view. I did not dare <del type="crossedOut" hand="#MWS" rend="blackink">to</del> return<lb/>
                to the appartment<add place="infralinear" hand="#MWS" rend="blackink">^</add><add place="supralinear" hand="#MWS" rend="blackink">which</add> I inhabited but<lb/>

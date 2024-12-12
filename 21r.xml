@@ -34,7 +34,9 @@
          <div type="page" n="21r" rend="recto">
             <pb facs="#p21r"/>
             <head>
-               Chapter 7<hi rend="sup"><hi rend="u">th</hi></hi><metamark function="pagenumber"><num><hi rend="circled">75</hi></num></metamark>
+               <pageNumber place="right"><hi rend="circled">75</hi></pageNumber>
+               <pageNumber place="center">Chapter 7<hi rend='subscript'>th</hi></pageNumber>
+
             </head>
             <p>
                It was on a dreary night of November<lb/>
@@ -65,18 +67,22 @@
                to form. His limbs were in proportion<lb/>
                and I had selected his features <del type="crossedOut" hand="#MWS" rend="blackink">h</del> as<lb/>
               
-               <add place="marginleft" hand="#MWS" rend="blackink">handsome</add>
-               <add place="marginleft" hand="#PBS" rend="blackink">beautiful</add>
+               <add place="marginleft" hand="#MWS" rend="blackink">
+                  <add place="inline" hand="#PBS" rend="blackink">beautiful.</add>
+               </add>
+               <add place="marginleft" hand="#MWS" rend="blackink">
+                  <del type="crossedOut" hand="#PBS" rend="blackink">handsome</del>
+               </add>
                <del type="crossedOut" hand="#PBS" rend="blackink"></del>
 
                <del type="crossedOut" hand="#MWS" rend="blackink">handsome</del>.
                <del type="crossedOut" hand="#PBS" rend="blackink">Handsome</del>
-               <add place="supralinear" hand="#PBS" rend="blackink">beautiful</add>; 
+               <add place="supralinear" hand="#PBS" rend="blackink">Beautiful</add>; 
                Great God! His<lb/>
                <del type="crossedOut" hand="#MWS" rend="blackink">dun</del> <add place="marginleft" hand="#MWS" rend="blackink">yellow</add> skin scarcely covered the work of<lb/>
                muscles and arteries beneath; his hair<lb/>
                <add place="marginleft" hand="#PBS" rend="blackink">of a lustrous black &amp;</add> 
-               was<add place='infralinear' hand="#MWS" rend="blackink">^</add>flowing and his teeth of a pearly white-<lb/>
+               <add place='infralinear' hand="#MWS" rend="blackink">^</add>was flowing and his teeth of a pearly white-<lb/>
                ness but these luxurianc<add place="inline" hand="#MWS" rend="blackink">i</add>es only <del type="crossedOut" hand="#MWS" rend="blackink">fomed</del><lb/>
                formed a more horrid contrast with<lb/>
                his watry eyes that seemed almost of<lb/>

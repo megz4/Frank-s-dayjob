@@ -32,7 +32,7 @@
     <body>
       <div type="page" n="22v" rend="verso">
         <pb facs="#p22v"/>
-        <metamark function="pagenumber"><num><hi rend="circled">78</hi></num></metamark>
+        <pageNumber place="left"><hi rend="circled">78</hi></pageNumber>
         <p>
         so hideous as <hi rend="double">He</hi>. I had gazed on him<lb/>
         while unfinished; 
@@ -58,7 +58,7 @@
         creature as I never before existed.</del><add place="supralinear" hand="#PBS" rend="blackink">X</add><lb/>
         
         <add place="marginleft" hand="#PBS" rend="blackink">X and mingled with this horror I felt the bitterness of
-        <del type="crossedOut" hand="#PBS" rend="blackink">disapp</del>disappointment:</add>
+        <del type="crossedOut" hand="#PBS" rend="blackink">disapp</del> disappointment:</add>
 
         Dreams that had been my food and<lb/>
         rest for so long a space were now<lb/>

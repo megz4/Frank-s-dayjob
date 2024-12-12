@@ -33,7 +33,7 @@
       <body>
          <div type="page" n="25r" rend="recto">
             <pb facs="#p25r"/>
-            <metamark function="pagenumber"><num><hi rend="circled">83</hi></num></metamark>
+            <pageNumber place="right"><hi rend="circled">83</hi></pageNumber>
             <p>
                believe that so great a good fortune<lb/>
                could have befallen me; but when<lb/>

@@ -11,6 +11,7 @@
     <xsl:template match="tei:body">
         <div class="row">
         <div class="col-3"><br/><br/><br/><br/><br/>
+        <span class="leftMargin">
             <xsl:for-each select="//tei:add[@place = 'marginleft']">
                 <xsl:choose>
                     <xsl:when test="parent::tei:del">
@@ -26,11 +27,12 @@
                             <xsl:attribute name="class">
                                 <xsl:value-of select="attribute::hand" />
                             </xsl:attribute>
-                        <xsl:value-of select="."/><br/>
+                        <xsl:apply-templates/><br/>
                         </span>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:for-each> 
+            </span>
         </div>
         <div class="col-9">
             <div class="transcription">
@@ -76,6 +78,7 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+
     
     <xsl:template match="tei:add">
         <span class="defaultAdd">
@@ -98,8 +101,19 @@
             <xsl:apply-templates/>
         </hi>
     </xsl:template>
-
     
+
+    <xsl:template match="tei:pageNumber">
+        <div class="page-number">
+        <xsl:attribute name="class">
+            <xsl:value-of select="attribute::place" />
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+
+
 <!--     
     <xsl:template match="hi[@rend='underline']">
         <span class="underline">
@@ -127,20 +141,9 @@
     -->
 
 
-<!-- &#8212; - unicode for wide hyphen i.e. crossing through -->
+<!-- &#8212; - unicode for wide hyphen -->
 <!-- dentistry symbol light vertical and bottom right (U+23BF) // left square bracket lower corner (U+23A3) -->
 
-
-
-
- <!-- 
- questions 
- i wanna make the additions above the line withoug breaking it (avoid white spaces)
- should i adhere to the 'hand' specified in the document, or continue with the one in the provided files
-should i keep all the <hi> variation in the xml when it works just by adding it in css?
- deal with the text in margins situation + how to add modification to it, e,g, 21r line 60: handsome is crossed out and beautiful is added in supra
- -->
- 
 
 
  </xsl:stylesheet>

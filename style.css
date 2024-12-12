@@ -1,8 +1,7 @@
-/*
 body {
-
+    margin: 0 auto; /* Center the text block horizontally */
+    max-width: 1200px; /* Optional: Limit the maximum width */
 }
-*/
 
 .starter-template {
   padding: 40px 15px;
@@ -10,7 +9,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 150%;
 }
 
 p {
@@ -30,22 +29,26 @@ p {
   margin-right: 10px;
 }
 
+/* margin text  */
 
 .marginAdd {
-        display: none;          
+        display: none;
 }
 
-   /* 
-.marginAdd {
-    position: relative;
-    color: blue;
-  
-}
-*/
 
+.leftMargin {
+    font-size: 80%; 
+    }
 
 .mirador-canvas-nav {
     display: none !important;
+}
+
+/* add(itions) */
+
+.defaultAdd {
+    font-style: italic;
+    color: brown;
 }
 
 .supraAdd {
@@ -57,7 +60,6 @@ p {
     color: brown;
 }
 
-
 .infraAdd {
     position: relative;
     bottom: -8px;
@@ -67,12 +69,6 @@ p {
     color: brown;
 }
   
-
-.defaultAdd {
-    font-style: italic;
-    color: brown;
-}
-
 del {
     color: brown;
     text-decoration: line-through; 
@@ -80,6 +76,8 @@ del {
     text-decoration-thickness: 1.2px;
     font-style: italic; 
 }
+
+/* hi(ghlights) */
 
 .underline {
     position: relative;
@@ -97,12 +95,46 @@ del {
     width: 1em;
     }
 
+.subscript
+{
+    position: relative;
+    font-size: 65%; 
+    text-decoration-line: underline; 
+    top: -4px;
+}
 
 .circled {
-        display: inline-block; /* Ensures the element wraps neatly around the content */
-        border: 2px solid black; /* Adjust the thickness and color of the circle */
-        border-radius: 50%; /* Makes the border circular */
-        padding: 10px; /* Adds space between the number and the circle */
-        text-align: center; /* Centers the number inside the circle */
-        line-height: 1; /* Ensures proper vertical alignment */
+    width: 45px; /* Circle size */
+    height: 44px; /* Circle size */
+    border: 1px solid black; /* Circle border */
+    border-radius: 50%; /* Turns it into a circle */
+    font-size:80%; 
+    text-align: center; /* Aligns text horizontally */
+    line-height: 40px; /* Aligns text vertically within the circle */
+    font-weight: bold; /* Makes the number bold */
     }
+
+
+/* page-number */
+
+.center {
+    display: flex; /* Enable flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    margin-top: 10px; /* Space above */
+    margin-bottom: 20px; /* Space below */
+} 
+
+.left {
+    display: flex; /* Enable flexbox for centering */
+    justify-content: left; /* Center horizontally */
+    margin-top: 20px; /* Space above */
+    margin-bottom: 5%; /* Space below */
+}
+
+.right {
+    display: flex; /* Enable flexbox for centering */
+    justify-content: right; /* Center horizontally */
+    margin-top: 20px; /* Space above */
+    margin-bottom: 5px; /* Space below */
+}
+

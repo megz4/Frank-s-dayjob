@@ -32,7 +32,7 @@
     <body>
       <div type="page" n="23v" rend="verso">
         <pb facs="#p23v"/>
-        <metamark function="pagenumber"><num><hi rend="circled">80</hi></num></metamark>
+        <pageNumber place="left"><hi rend="circled">80</hi></pageNumber>
         
       <p>
         the doors being opened I perceived Henry<lb/> 
