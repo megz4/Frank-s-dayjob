@@ -56,7 +56,7 @@
                "But his affection for me at<lb/>
                "lenght overcame his dislike for<lb/>
                "learning, and he permitted me<lb/>
-               "to<add place="infralinear" hand="#MWS" rend="blackink">^</add><add place="supralinear" hand="#PBS" rend="blackink">under</add>take a voyage <add place="supralinear" hand="#PBS" rend="blackink">of discovery</add> to the land of<lb/>
+               "to<add place="infralinear" hand="#PBS" rend="blackink">^</add><add place="supralinear" hand="#PBS" rend="blackink">under</add>take a voyage <add place="supralinear" hand="#PBS" rend="blackink">of discovery</add> to the land of<lb/>
                "knowledge."<lb/>
             </p>
             <p>
@@ -76,7 +76,8 @@
                <hi rend='indented'></hi>"You have guessed right" I replied<lb/>
                "I have lately been so engaged in<lb/>
                <del type="CrossedOut" hand="PBS" rend="blackink">several</del> <add place="supralinear" hand="#PBS" rend="blackink"><del type="crossedOut" hand="#PBS" rend="blackink">studious</del> one</add> occupations that I did<lb/>
-               <add place="marginleft" hand="#PBS" rend="blackink">have</add>"not allow<add place="overwritten" hand="#PBS" rend="blackink">ed</add><add place="infralinear" hand="#MWS" rend="blackink">^</add><add place="supralinear" hand="#MWS" rend="blackink">myself</add> sufficient rest as you<lb/>
+               <add place="marginleft" hand="#PBS" rend="blackink">have</add>
+               "not allow<add place="overwritten" hand="#PBS" rend="blackink">ed</add><add place="infralinear" hand="#MWS" rend="blackink">^</add><add place="supralinear" hand="#MWS" rend="blackink">myself</add> sufficient rest as you<lb/>
             </p>
          </div>
       </body>

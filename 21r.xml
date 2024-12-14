@@ -40,12 +40,12 @@
             </head>
             <p>
                It was on a dreary night of November<lb/>
-               that I beheld <del type="crossedOut" hand="#PBS" rend="blackink"><add place="supralinear" hand="#PBS" rend="blackink">the frame on whic</add></del> 
+               that I beheld <add place="supralinear" hand="#PBS" rend="blackink"><del type="crossedOut" hand="#PBS" rend="blackink">the frame on whic</del></add>
                my man comple<del type="overwritten" hand="#PBS" rend="blackink">at</del><add place="overwritten" hand="#PBS" rend="blackink">te</add>ed<add place="overwritten" hand="#PBS" rend="blackink">,</add>.
                       <del type="crossedOut" hand="#PBS" rend="blackink">And</del><lb/>
                with an anxiety that almost amount-<lb/>
                ed to agony I collected instruments of life<lb/>
-               around me <del type="crossedOut" hand="#MWS" rend="blackink">and endeavour to</del> 
+               around me <del type="crossedOut" hand="#PBS" rend="blackink">and endeavour to</del> 
                <add place="supralinear" hand="#PBS" rend="blackink">that I might</add> 
                <del type="overwritten" hand="#PBS" rend="blackink">e</del><add place="overwritten" hand="#PBS" rend="blackink">i</add>nfuse a<lb/>
                spark of being into the lifeless thin<del type="overwritten" hand="#MWS" rend="blackink">k</del><add place="overwritten" hand="#MWS" rend="blackink">g</add> <lb/>
@@ -67,7 +67,7 @@
                to form. His limbs were in proportion<lb/>
                and I had selected his features <del type="crossedOut" hand="#MWS" rend="blackink">h</del> as<lb/>
               
-               <add place="marginleft" hand="#MWS" rend="blackink">
+               <add place="marginleft" hand="#PBS" rend="blackink">
                   <add place="inline" hand="#PBS" rend="blackink">beautiful.</add>
                </add>
                <add place="marginleft" hand="#MWS" rend="blackink">
@@ -75,7 +75,7 @@
                </add>
                <del type="crossedOut" hand="#PBS" rend="blackink"></del>
 
-               <del type="crossedOut" hand="#MWS" rend="blackink">handsome</del>.
+               <del type="crossedOut" hand="#PBS" rend="blackink">handsome</del>.
                <del type="crossedOut" hand="#PBS" rend="blackink">Handsome</del>
                <add place="supralinear" hand="#PBS" rend="blackink">Beautiful</add>; 
                Great God! His<lb/>

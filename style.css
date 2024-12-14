@@ -63,7 +63,6 @@ h3 {
 
 .defaultAdd {
     font-style: italic;
-    color: brown;
 }
 
 .supraAdd {
@@ -72,7 +71,6 @@ h3 {
     font-size: smaller; 
     font-style: italic;
     white-space: nowrap; 
-    color: brown;
 }
 
 .infraAdd {
@@ -81,11 +79,9 @@ h3 {
     font-size: smaller; 
     font-style: italic;
     white-space: nowrap; 
-    color: brown;
 }
   
 del {
-    color: brown;
     text-decoration: line-through; 
     text-decoration-color: black; 
     text-decoration-thickness: 1.2px;
@@ -137,6 +133,7 @@ del {
     justify-content: center; 
     margin-top: 10px; 
     margin-bottom: 20px; 
+    color: black;
 } 
 
 .left {
@@ -144,6 +141,7 @@ del {
     justify-content: left;
     margin-top: 20px;
     margin-bottom: 5%;
+    color: black;
 }
 
 .right {
@@ -151,6 +149,7 @@ del {
     justify-content: right; 
     margin-top: 20px; 
     margin-bottom: 5px; 
+    color: black;
 }
 
 

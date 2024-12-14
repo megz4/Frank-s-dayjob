@@ -103,16 +103,118 @@ function documentLoader() {
   // Convert the HTMLCollection to an array for forEach compatibility
   var MaryArray = Array.from(visible_mary);
   var PercyArray = Array.from(visible_percy);
+
     if (event.target.value == 'both') {
     //write an forEach() method that shows all the text written and modified by both hand (in black?). The forEach() method of Array instances executes a provided function once for each array element.
      
+    MaryArray.forEach(
+    (element) =>
+    {element.style.color = 'black';
+      element.style.opacity = '1';
+    }
+    );
+
+    PercyArray.forEach(
+      (element) =>
+      {element.style.color = 'black';
+        element.style.opacity = '1';
+      }
+    );
+
     } else if (event.target.value == 'Mary') {
      //write an forEach() method that shows all the text written and modified by Mary in a different color (or highlight it) and the text by Percy in black. 
      
-    } else {
+    MaryArray.forEach(
+      (element) =>
+      {element.style.color = 'brown';
+        element.style.opacity = '1';
+      }
+      );
+  
+      PercyArray.forEach(
+        (element) =>
+        {element.style.color = 'black';
+          element.style.opacity = '0.4';
+        }
+      );
+    } else if (event.target.value == 'Percy') {
      //write an forEach() method that shows all the text written and modified by Percy in a different color (or highlight it) and the text by Mary in black.
     
+     MaryArray.forEach(
+      (element) =>
+      {element.style.color = 'black';
+       element.style.opacity = '0.4';
+      }
+      );
+  
+      PercyArray.forEach(
+        (element) =>
+        {element.style.color = 'brown';
+          element.style.opacity = '1';
+        }
+      );
+  
     }
   }
 // write another function that will toggle the display of the deletions by clicking on a button
-// EXTRA: write a function that will display the text as a reading text by clicking on a button or another dropdown list, meaning that all the deletions are removed and that the additions are shown inline (not in superscript)
+
+function toggleDel(event) {
+  var deletions = document.getElementsByTagName('del');
+  var delArray = Array.from(deletions);
+
+  // var additions = document.querySelectorAll('.supraAdd, .infraAdd, .defaultAdd ');
+  // var addArray = Array.from(additions);
+
+  if (event.target.value == 'show') {
+    delArray.forEach(
+      (element) => 
+      {
+        element.style.opacity = '1';
+        element.style.display = 'inline';
+      }
+    );
+
+  }
+
+  else if (event.target.value == 'hide') {
+    delArray.forEach(
+      (element) => 
+      {element.style.display = 'none';
+
+      }
+    );
+  }
+
+  else if (event.target.value == 'cover') {
+    delArray.forEach(
+      (element) =>
+      {
+        element.style.display = 'inline';
+        element.style.opacity = '0.3';
+      }
+      
+    )
+  }
+
+
+  // EXTRA: write a function that will display the text as a reading text by clicking on a button or another dropdown list, meaning that all the deletions are removed and that the additions are shown inline (not in superscript)
+
+
+  // else {
+  //   delArray.forEach(
+  //     (element) =>
+  //     {
+  //       element.style.display = 'none';
+  //     }
+  //   )
+  //   addArray.forEach(
+  //     (element) =>
+  //     {
+  //       element.style.display = 'inline';
+  //       element.style.fontSize = 'inherit';  // Use the inherited font size (default)
+  //       element.style.fontStyle = 'normal';  // Reset any italic style
+  //       element.style.top = '0';  // Reset the top positioning
+  //     }
+  //   )
+  // }
+}
