@@ -112,7 +112,11 @@
         </div>
     </xsl:template>
 
-
+    <xsl:template match="tei:pageNum">
+        <span>
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
 
 <!--     
     <xsl:template match="hi[@rend='underline']">
