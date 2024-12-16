@@ -36,15 +36,16 @@
 
                                 </ul>
 
+                                <li>Number of changes made by Mary W. Shelley:
+                                <!-- add other list items in which you count things, such as the modifications made by Mary -->
+                                    <xsl:value-of select="count(//tei:del[@hand='#MWS']|//tei:add[@hand='#MWS'])" />
+                                </li>
 
                                 <li>Number of changes made by Percy B. Shelley:
                                 <!-- add other list items in which you count things, such as the modifications made by Percy -->
                                     <xsl:value-of select="count(//tei:del[@hand='#PBS']|//tei:add[@hand='#PBS'])" />
                                 </li>
-                                <li>Number of chnages made by Mary W. Shelley:
-                                <!-- add other list items in which you count things, such as the modifications made by Mary -->
-                                    <xsl:value-of select="count(//tei:del[@hand='#MWS']|//tei:add[@hand='#MWS'])" />
-                                </li>
+                                
 
                             </ul>
                         </div>

@@ -110,14 +110,16 @@ function documentLoader() {
     MaryArray.forEach(
     (element) =>
     {element.style.color = 'black';
-      element.style.opacity = '1';
+      element.style.fontWeight = 'normal';
+    //  element.style.opacity = '1';
     }
     );
 
     PercyArray.forEach(
       (element) =>
       {element.style.color = 'black';
-        element.style.opacity = '1';
+        element.style.fontWeight = 'normal';
+       // element.style.opacity = '1';
       }
     );
 
@@ -127,14 +129,16 @@ function documentLoader() {
     MaryArray.forEach(
       (element) =>
       {element.style.color = 'brown';
-        element.style.opacity = '1';
+       element.style.fontWeight = '600';
+       // element.style.opacity = '1';
       }
       );
   
       PercyArray.forEach(
         (element) =>
         {element.style.color = 'black';
-          element.style.opacity = '0.4';
+          element.style.fontWeight = 'normal';
+         // element.style.opacity = '0.4';
         }
       );
     } else if (event.target.value == 'Percy') {
@@ -143,14 +147,16 @@ function documentLoader() {
      MaryArray.forEach(
       (element) =>
       {element.style.color = 'black';
-       element.style.opacity = '0.4';
+        element.style.fontWeight = 'normal';
+      // element.style.opacity = '0.4';
       }
       );
   
       PercyArray.forEach(
         (element) =>
         {element.style.color = 'brown';
-          element.style.opacity = '1';
+          element.style.fontWeight = '600';
+         // element.style.opacity = '1';
         }
       );
   
@@ -197,6 +203,7 @@ function toggleDel(event) {
   }
 
 
+  
   // EXTRA: write a function that will display the text as a reading text by clicking on a button or another dropdown list, meaning that all the deletions are removed and that the additions are shown inline (not in superscript)
 
 
