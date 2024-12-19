@@ -92,7 +92,7 @@
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>
-    
+
      <xsl:template match="tei:hi">
         <hi>
             <xsl:attribute name="class">

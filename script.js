@@ -162,66 +162,68 @@ function documentLoader() {
   
     }
   }
-// write another function that will toggle the display of the deletions by clicking on a button
+  // write another function that will toggle the display of the deletions by clicking on a button
 
-function toggleDel(event) {
-  var deletions = document.getElementsByTagName('del');
-  var delArray = Array.from(deletions);
+  function toggleDel(event) {
+    var deletions = document.getElementsByTagName('del');
+    var delArray = Array.from(deletions);
 
-  // var additions = document.querySelectorAll('.supraAdd, .infraAdd, .defaultAdd ');
-  // var addArray = Array.from(additions);
+    // var additions = document.querySelectorAll('.supraAdd, .infraAdd, .defaultAdd ');
+    // var addArray = Array.from(additions);
 
-  if (event.target.value == 'show') {
-    delArray.forEach(
-      (element) => 
-      {
-        element.style.opacity = '1';
-        element.style.display = 'inline';
-      }
-    );
+    if (event.target.value == 'show') {
+      delArray.forEach(
+        (element) => 
+        {
+          element.style.opacity = '1';
+          element.style.display = 'inline';
+        }
+      );
 
+    }
+
+    else if (event.target.value == 'hide') {
+      delArray.forEach(
+        (element) => 
+        {element.style.display = 'none';
+
+        }
+      );
+    }
+
+    else if (event.target.value == 'cover') {
+      delArray.forEach(
+        (element) =>
+        {
+          element.style.display = 'inline';
+          element.style.opacity = '0.3';
+        }
+        
+      )
+    }
+
+
+
+    // EXTRA: write a function that will display the text as a reading text by clicking on a button or another dropdown list, meaning that all the deletions are removed and that the additions are shown inline (not in superscript)
+
+
+    // else {
+    //   delArray.forEach(
+    //     (element) =>
+    //     {
+    //       element.style.display = 'none';
+    //     }
+    //   )
+    //   addArray.forEach(
+    //     (element) =>
+    //     {
+    //       element.style.display = 'inline';
+    //       element.style.fontSize = 'inherit';  // Use the inherited font size (default)
+    //       element.style.fontStyle = 'normal';  // Reset any italic style
+    //       element.style.top = '0';  // Reset the top positioning
+    //     }
+    //   )
+    // }
   }
-
-  else if (event.target.value == 'hide') {
-    delArray.forEach(
-      (element) => 
-      {element.style.display = 'none';
-
-      }
-    );
-  }
-
-  else if (event.target.value == 'cover') {
-    delArray.forEach(
-      (element) =>
-      {
-        element.style.display = 'inline';
-        element.style.opacity = '0.3';
-      }
-      
-    )
-  }
-
 
   
-  // EXTRA: write a function that will display the text as a reading text by clicking on a button or another dropdown list, meaning that all the deletions are removed and that the additions are shown inline (not in superscript)
-
-
-  // else {
-  //   delArray.forEach(
-  //     (element) =>
-  //     {
-  //       element.style.display = 'none';
-  //     }
-  //   )
-  //   addArray.forEach(
-  //     (element) =>
-  //     {
-  //       element.style.display = 'inline';
-  //       element.style.fontSize = 'inherit';  // Use the inherited font size (default)
-  //       element.style.fontStyle = 'normal';  // Reset any italic style
-  //       element.style.top = '0';  // Reset the top positioning
-  //     }
-  //   )
-  // }
-}

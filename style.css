@@ -26,6 +26,26 @@ p {
     text-align: start; 
 }
 
+h1 {
+    font-size: 45px;
+    margin-top: 20px;
+    color:#692727;
+    font-style: italic;
+}
+
+h5 {  /* For main title only (as h1 is used elsewhere) */
+    font-size: 55px;
+    font-weight: bold; 
+    color: #609850; 
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-stroke: 1px #333e30;
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 15px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+
 h2 {
     font-size: large;
     font-weight: bold;

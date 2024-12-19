@@ -30,7 +30,7 @@
                                     <xsl:value-of select="count(//tei:add)" />
                                 </li>
                                 <li>Number of deletions: 
-                                    <!-- count the additions only -->
+                                    <!-- count the deletions only -->
                                     <xsl:value-of select="count(//tei:del)" />
                                 </li>
 
@@ -45,7 +45,12 @@
                                 <!-- add other list items in which you count things, such as the modifications made by Percy -->
                                     <xsl:value-of select="count(//tei:del[@hand='#PBS']|//tei:add[@hand='#PBS'])" />
                                 </li>
-                                
+
+                                 <li>Total number of words: 
+                                    <xsl:call-template name="countWords">
+                                    <xsl:with-param name="nodes" select="//tei:div" />
+                                    </xsl:call-template>
+                                </li>
 
                             </ul>
                         </div>
@@ -53,5 +58,23 @@
         <hr/>
     </xsl:template>
     
+
+        <!-- Template to count words -->
+    <xsl:template name="countWords"> <!-- Created a new template (like function)' -->
+        <xsl:param name="nodes" />   <!-- The nodes to count, specified when recalling the template -->
+        <xsl:variable name="text">   <!-- defines variable 'text' -->
+        <xsl:for-each select="$nodes">  <!-- iterates over each node -->
+            <xsl:value-of select="normalize-space(.)" />  <!-- Extracts text content and removes extra spaces -->
+            <xsl:text> </xsl:text> <!-- Storing all in 'text' -->
+        </xsl:for-each>
+        </xsl:variable>
+        <xsl:value-of select="string-length(normalize-space($text)) - string-length(translate(normalize-space($text), ' ', '')) + 1" />
+    </xsl:template>
+
+                <!-- Insanely smart and creative -->
+                <!-- Subtract the length without spaces from the total length:
+                    This gives the number of spaces that separate words =  the number of words minus one.
+                    Add 1 to account for the last word:
+                    Total words = number of spaces + 1. (!!!)-->
 
 </xsl:stylesheet>
