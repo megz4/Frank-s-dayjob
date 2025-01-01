@@ -135,7 +135,7 @@ del {
     width: 1em;
     }
 
-.subscript
+.subscript  /* For 'th' in 7th chapter */
 {
     position: relative;
     font-size: 65%; 
@@ -201,10 +201,11 @@ del {
   
 
 /* button */
+
+
 .button-container {
     display: inline-block; 
     text-align: right; 
-    margin-left: 30px;
     margin-bottom: 10px;
 
  }

@@ -71,10 +71,10 @@
         <xsl:value-of select="string-length(normalize-space($text)) - string-length(translate(normalize-space($text), ' ', '')) + 1" />
     </xsl:template>
 
-                <!-- Insanely smart and creative -->
+                <!-- Insanely smart and creative (!!!) -->
                 <!-- Subtract the length without spaces from the total length:
                     This gives the number of spaces that separate words =  the number of words minus one.
                     Add 1 to account for the last word:
-                    Total words = number of spaces + 1. (!!!)-->
+                    Total words = number of spaces + 1. -->
 
 </xsl:stylesheet>

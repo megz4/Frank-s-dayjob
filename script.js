@@ -168,8 +168,6 @@ function documentLoader() {
     var deletions = document.getElementsByTagName('del');
     var delArray = Array.from(deletions);
 
-    // var additions = document.querySelectorAll('.supraAdd, .infraAdd, .defaultAdd ');
-    // var addArray = Array.from(additions);
 
     if (event.target.value == 'show') {
       delArray.forEach(
@@ -201,29 +199,121 @@ function documentLoader() {
         
       )
     }
-
+  }
 
 
     // EXTRA: write a function that will display the text as a reading text by clicking on a button or another dropdown list, meaning that all the deletions are removed and that the additions are shown inline (not in superscript)
 
+    let isReadingMode = false;
 
-    // else {
-    //   delArray.forEach(
-    //     (element) =>
-    //     {
-    //       element.style.display = 'none';
-    //     }
-    //   )
-    //   addArray.forEach(
-    //     (element) =>
-    //     {
-    //       element.style.display = 'inline';
-    //       element.style.fontSize = 'inherit';  // Use the inherited font size (default)
-    //       element.style.fontStyle = 'normal';  // Reset any italic style
-    //       element.style.top = '0';  // Reset the top positioning
-    //     }
-    //   )
-    // }
+    function toggleReading() {
+
+      var deletions = document.getElementsByTagName('del');
+      var delArray = Array.from(deletions);
+
+      // Accounting for all variation of additions, for running text
+    var additions = document.getElementsByClassName('defaultAdd');
+    var addArray = Array.from(additions);
+
+    var supras = document.getElementsByClassName('supraAdd');
+    var supraArray = Array.from(supras);
+
+    var infras = document.getElementsByClassName('infraAdd');
+    var infraArray = Array.from(infras);
+
+    var margin = document.getElementsByClassName('marginAdd');
+    var marginArray = Array.from(margin);
+
+    var leftmargin = document.getElementsByClassName('leftMargin');
+    var leftmarginArray = Array.from(leftmargin);  
+
+  
+    if (isReadingMode) {
+      // Return to normal mode (css-styled)
+      delArray.forEach((element) => {
+          element.style.removeProperty('display');
+      });
+
+      addArray.forEach((element) => {
+          element.style.removeProperty('display');
+          element.style.removeProperty('font-size');
+          element.style.removeProperty('font-style');
+      });
+
+      supraArray.forEach((element) => {
+        element.style.removeProperty('display');
+        element.style.removeProperty('font-size');
+        element.style.removeProperty('font-style');
+        element.style.removeProperty('top');
+      });
+
+      infraArray.forEach((element) => {
+        element.style.removeProperty('display');
+        element.style.removeProperty('font-size');
+        element.style.removeProperty('font-style');
+        element.style.removeProperty('bottom');
+      });
+
+      marginArray.forEach((element) => {
+          element.style.removeProperty('display'); // Display in the margin
+        }
+      );
+
+      leftmarginArray.forEach((element) => {
+        element.style.removeProperty('display'); // Dont display in the text
+      }
+    );
+     }
+
+      
+     else {
+       delArray.forEach((element) =>
+         {
+           element.style.display = 'none';
+         });
+
+         addArray.forEach((element) =>
+          {
+            element.style.display = 'inline';
+            element.style.fontSize = 'inherit';  
+            element.style.fontStyle = 'normal'; 
+            }
+         );
+
+         supraArray.forEach((element) =>
+          {
+            element.style.display = 'inline';
+            element.style.fontSize = 'inherit';  
+            element.style.fontStyle = 'normal'; 
+            element.style.top = '0';  
+            }
+         );
+
+          infraArray.forEach(
+         (element) =>
+         {
+           element.style.display = 'inline';
+           element.style.fontSize = 'inherit';  
+           element.style.fontStyle = 'normal'; 
+           element.style.bottom = '0';
+         }
+       );
+
+       marginArray.forEach(
+        (element) =>
+        {
+          element.style.display = 'inline'; // Display in the text
+        }
+      );
+
+      leftmarginArray.forEach((element) => {
+        element.style.display = 'none';   // Dont display in the margin
+      }
+    );
+
+     }
+
+     isReadingMode = !isReadingMode;
   }
 
   
