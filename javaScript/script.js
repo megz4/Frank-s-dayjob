@@ -48,7 +48,7 @@ function documentLoader() {
 
     Promise.all([
       fetch(folio_xml).then(response => response.text()),
-      fetch("Frankenstein_text.xsl").then(response => response.text())
+      fetch("../xsl/Frankenstein_text.xsl").then(response => response.text())
     ])
     .then(function ([xmlString, xslString]) {
       var parser = new DOMParser();
@@ -73,7 +73,7 @@ function documentLoader() {
 
     Promise.all([
       fetch(folio_xml).then(response => response.text()),
-      fetch("../Frankenstein_meta.xsl").then(response => response.text())
+      fetch("../xsl/Frankenstein_meta.xsl").then(response => response.text())
     ])
     .then(function ([xmlString, xslString]) {
       var parser = new DOMParser();
