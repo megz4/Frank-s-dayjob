@@ -1,6 +1,6 @@
 body {
     margin: 0 auto; 
-    max-width: 1200px; /* Limit the maximum width */
+    max-width: 1200px; /* limit the maximum width */
     background-color: #dcbc8df7;
     color: #201616; 
 }
@@ -135,7 +135,7 @@ del {
     width: 1em;
     }
 
-.subscript  /* For 'th' in 7th chapter */
+.subscript  /* For 'th' in 7th chapter on the cover*/
 {
     position: relative;
     font-size: 65%; 

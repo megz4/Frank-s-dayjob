@@ -111,7 +111,6 @@ function documentLoader() {
     (element) =>
     {element.style.color = 'black';
       element.style.fontWeight = 'normal';
-    //  element.style.opacity = '1';
     }
     );
 
@@ -119,7 +118,6 @@ function documentLoader() {
       (element) =>
       {element.style.color = 'black';
         element.style.fontWeight = 'normal';
-       // element.style.opacity = '1';
       }
     );
 
@@ -130,7 +128,6 @@ function documentLoader() {
       (element) =>
       {element.style.color = 'brown';
        element.style.fontWeight = '600';
-       // element.style.opacity = '1';
       }
       );
   
@@ -138,7 +135,6 @@ function documentLoader() {
         (element) =>
         {element.style.color = 'black';
           element.style.fontWeight = 'normal';
-         // element.style.opacity = '0.4';
         }
       );
     } else if (event.target.value == 'Percy') {
@@ -148,7 +144,6 @@ function documentLoader() {
       (element) =>
       {element.style.color = 'black';
         element.style.fontWeight = 'normal';
-      // element.style.opacity = '0.4';
       }
       );
   
@@ -156,7 +151,6 @@ function documentLoader() {
         (element) =>
         {element.style.color = 'brown';
           element.style.fontWeight = '600';
-         // element.style.opacity = '1';
         }
       );
   
@@ -229,7 +223,7 @@ function documentLoader() {
 
   
     if (isReadingMode) {
-      // Return to normal mode (css-styled)
+      // Return to normal css-style
       delArray.forEach((element) => {
           element.style.removeProperty('display');
       });
